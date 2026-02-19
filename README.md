@@ -1,8 +1,9 @@
-# AI Resume Screening & Ranking System
+# SmartResume: AI Resume Screening & Ranking System
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
 ![NLTK](https://img.shields.io/badge/NLTK-NLP-green)
+![Developer](https://img.shields.io/badge/Developed_by-Shiva-orange)
 
 A Machine Learning-based resume screening system designed to help HR teams and recruiters automate the initial screening process. This tool reads resumes, extracts skills, compares them against a job description, and ranks candidates based on relevance.
 
@@ -11,7 +12,7 @@ A Machine Learning-based resume screening system designed to help HR teams and r
 ## 🎯 Objective
 To build an intelligent system that can:
 - **Read** unstructured resume text (PDF/DOCX/TXT).
-- **Extract** key skills and relevant keywords using NLP (SpaCy).
+- **Extract** key skills and relevant keywords using NLP (NLTK).
 - **Rank** candidates based on semantic similarity to the Job Description.
 - **Visualize** the "Skill Gap" (what matches vs. what's missing).
 
@@ -36,15 +37,14 @@ To build an intelligent system that can:
 ### Steps
 1.  **Clone the Repository**
     ```bash
-    git clone https://github.com/your-username/resume-ranking-system.git
-    cd resume-ranking-system
+    git clone https://github.com/MRSHIVA2507/FUTURE_ML_03.git
+    cd FUTURE_ML_03
     ```
 
 2.  **Install Dependencies**
     ```bash
     pip install -r requirements.txt
     ```
-    *Note: This will also download the necessary SpaCy model (`en_core_web_sm`).*
 
 3.  **Run the Application**
     ```bash
@@ -76,4 +76,4 @@ To build an intelligent system that can:
 - **Feedback Loop**: Allowing recruiters to manually "Like/Dislike" a ranking to retrain the model.
 
 ---
-*Built for the "AI for HR" implementation task.*
+*Developed by Shiva | Built for the "AI for HR" implementation task.*
